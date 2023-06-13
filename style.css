@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    /* flex-direction: column; */
+    box-shadow: 3px 3px 3px rgb(213, 10, 10);
+    padding: 10px 10px;
+    border: 1px solid #3d0505;
+    width: 500px;
+    margin: auto;
+
+    background: linear-gradient(to bottom , rgb(12, 174, 126) , rgb(131, 129, 129));
+}
+
+body{
+    background: rgb(34, 3, 93);
+}
+
+.container > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.container button{
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgb(12, 142, 149);
+    box-shadow: 2px 2px 2px rgb(8, 88, 67);
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+.container button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: rgb(17, 135, 82);
+    color: black;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 9px;
+    margin: 9px auto;
+}
